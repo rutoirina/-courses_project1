@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+/* всегда это использовать */
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+/* конец использования */
+
+/* глобальные стили */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.separator {
+    width: 170px;
+    height: 1px;
+    margin: 60px auto 40px;
+}
+
+.separator--red-color {
+    background-color: #EC7979;
+}
+
+.separator--white-color {
+    background-color: #FFFFFF;
+    margin: 60px 0 40px 0;
+}
+
+.main-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.secondary-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+}
+
+.content-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.content-text--white-color {
+    color: #FFFFFF;
+}
+
+.button {
+    padding: 0;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    height: 60px;
+    background: none;
+    width: 270px;
+    border: 2px solid #FFFFFF;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button--red-color {
+    background-color: #EC7979;
+    border: none;
+}
+
+.button--center {
+    display: flex;
+    justify-content: center;
+}
+
+/* конец глобальных стилей */
+

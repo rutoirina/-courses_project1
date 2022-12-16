@@ -1,0 +1,27 @@
+.social {
+    background: #F8EFEF;
+    padding: 18px 0;
+    
+}
+.social .container {
+    padding: 0;
+}
+
+.social--wrapper {
+    display: flex;
+} 
+
+.social-text--wraper {
+    width: 470px;
+    margin: 0 35px;
+}
+
+.networks-icon {
+    margin: 0 15px; 
+    width: 60px;
+    height: 60px;
+} 
+
+.social-img {
+    margin-top: 25px;
+}
